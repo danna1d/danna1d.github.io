@@ -1,0 +1,231 @@
+h1,h2,h3,h4,h5,h5,p,figure,ul,li
+{margin 0;
+padding: 0;}
+
+body { background-color: lightcyan;}
+.block-center{
+    margin: 0 auto;
+}
+
+.container{
+    width: 980px;    
+}
+
+
+/*Bloque de navegacion fin*/
+
+nav li{
+    display:inline-flex;
+    
+}
+nav a{
+    background-color: none;
+    padding: 10px;
+    margin: 4px 9px;
+    text-decoration: none;
+    
+}
+nav li a:hover{
+    background-color: deepskyblue;
+    
+}
+#nota-principal{
+     margin: auto;
+    padding: 0;
+    height: 320px;
+    width: 960px;
+    background-color: lightgreen;
+    border: 10px solid;
+    border-color:white;
+    box-shadow: 0 0 10px grey;
+    margin-bottom: 15px;
+}
+/*Nota secundaria*/
+#nota-secundaria article{
+     display: flex;
+     background-image: url('../Imagenes/sombra.png');
+     background-repeat: no-repeat;
+     background-position: bottom;
+     padding-bottom: 40px;
+     margin-bottom: 30px;
+}
+#nota-secundarias figure{
+    position: relative;
+}
+#nota-secundaria figure span{
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    padding: 5px 20px;
+    background-color: lightgrey;
+    box-shadow: 1px 1px 3px darkgrey;
+}
+#nota-secundaria article div{
+    padding-left: 10px;
+}
+#nota-secundaria article div p {
+    text-align: justify;
+    line-height: 0.8em;
+}
+#nota-secundaria article h2{
+    font-variant: small-caps;
+    line-height: 0.9em;
+}
+#nota-secundaria a{
+    color: darkcyan;
+    text-decoration: none;
+    font-size: 1.0em
+}
+#nota-secundaria a:hover{
+    color: cadetblue;
+    text-decoration: underline;
+}
+#nota-secundaria {
+     background-image: url("../imagenes/fondo2.jpg" ); 
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+    
+    min-height: 260px;
+}
+/*Nota secundaria fin*/
+
+.nota-secundaria{
+   display: flex; 
+   justify-content:space-around;
+}
+
+
+
+.ver-mas p{
+    color: white;
+    {font-weight: Haettenschweiler;}
+}
+.div-class{
+  
+    background: darkcyan;
+    display: inline-block;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding: 3px;
+    box-shadow: 0px 1px 3px darkgray;
+    
+
+}
+
+.div-class > div{
+    padding: 0px     px;
+    border: 1px solid rgba(255,255,255,.7)
+    }
+
+.div-class p{
+    color: white;
+    padding: 0 !important;
+    font-variant: small-caps;
+    font-size: 1.1em;
+    
+}
+
+figure{
+    margin: 0;
+    position: relative;
+}
+
+.nota-secundaria{
+   display: flex; 
+   justify-content:space-around;
+}
+
+
+#la-barra-navegacion
+{height: 50px;
+display: flex;
+    justify-content: space-between;
+    background-color: steelblue;
+}
+
+.centrado{
+    margin: 0 auto;}
+    
+
+
+#la-barra-navegacion li 
+{
+    display: inline-block;
+    padding: 0px;
+    margin: 0;
+}
+
+#la-barra-navegacion ul ul
+{
+    display: none;
+}
+
+#la-barra-navegacion a 
+
+{
+    color: black;
+    text-decoration: none;
+    padding: 10px; 20px; 
+    margin-left: 100px;
+    transition: 0.5s;
+    font-family: Haettenschweiler;
+}
+
+#la-barra-naegacion ul 
+{
+   padding:0;
+    
+}
+#la-barra-navegacion >ul>li>a:hover {
+    background-color:lightblue;
+    
+}
+#barra-navegacion
+{height: 50px;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+
+#barra-navegacion li 
+{
+    display: inline-block;
+    padding: 0px;
+}
+
+#barra-navegacion ul ul
+{
+    display: none;
+}
+
+#barra-navegacion a 
+
+{
+    color: black;
+    text-decoration: none;
+    background-color: darkcyan;
+    padding: 10px; 20px; 
+    transition: 0.5s;
+    font-family: Haettenschweiler;
+}
+
+#barra-naegacion ul 
+{
+   padding: 0;
+    
+}
+#barra-navegacion >ul>li>a:hover {
+    background-color:lightblue;
+    
+}
+#nota
+{ 
+    text-align: justify;
+    margin: 10px 5;
+    padding-top: 5px;
+    line-height: 1.2em;
+    font-size: 20px;
+    }
